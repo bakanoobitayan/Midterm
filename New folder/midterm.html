@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src=script.js></script>
+</head>
+<body>
+	<div id="mainName">CALCULATOR</div>
+<div id ="main">
+	<input type= "text" id="display" name="display">
+	<br>
+
+<br>
+
+<table>
+<tr>
+<td>
+<button onclick="one()">1</button>
+<button onclick="two()">2</button>
+<button onclick="three()" >3</button>
+<button onclick="four()">4</button>
+</td>
+</tr>
+</table>
+<table>
+<tr>
+<td>
+<button onclick="five()" >5</button>
+<button onclick="six()" >6</button>
+<button onclick="seven()">7</button>
+<button onclick="eight()">8</button>
+</table>
+</tr>
+</td>
+<table>
+<tr>
+<td>
+<button onclick="nine()">9</button>
+<button onclick="zero()">0</button>
+<button onclick="add()">+</button>
+<button onclick="subtract()">-</button>
+</tr>
+</td>
+</table>
+
+
+	<table>
+		<td>
+			<tr>
+	
+	<button onclick="multiply()">*</button>
+	<button onclick="divide()">/</button>
+	<button onclick="modulo()">%</button>
+	<button id="exponent">^</button>
+	</tr>
+		</td>
+	</table>
+	<button onclick ="equals()">=</button>
+	<button onclick= "back()">back</button>
+	<button onclick="clear()">clear</button>
+</div>
+
+</body>
+</html>
+<script type="text/javascript">
+
+function one(){
+    document.getElementByID("display").value+='1';
+   }
+function two(){
+    document.getElementByID("display").value=+"2";
+   
+}
+function three(){
+    document.getElementbyID("display").value=+"3";
+    
+}
+function four(){
+    document.getElementbyID("display").value=+"4";
+    
+}
+function five(){
+    document.getElementbyID("display").value=+"5";
+    
+}
+function six(){
+    document.getElementbyID("display").value=+"6";
+    
+}
+function seven(){
+    document.getElementbyID("display").value=+"7";
+   
+}
+function eight(){
+    document.getElementbyID("display").value=+"8";
+    
+}
+function nine(){
+    document.getElementbyID("display").value=+"9";
+   
+}
+function zero(){
+    document.getElementbyID("display").value=+"0";
+   
+}
+
+
+
+</script>
